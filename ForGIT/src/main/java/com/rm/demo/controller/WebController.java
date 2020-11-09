@@ -10,6 +10,10 @@ public class WebController {
 		return "Hello world";
 	}
 	
+	@GetMapping("/hi")
+	public String sayHi() {
+		return "Hii world";
+	}
 	
 	
 	
